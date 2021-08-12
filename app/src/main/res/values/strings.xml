@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PDBotonera</string>
+    <string name="main_cashier">Cajero</string>
+    <string name="main_resfriadinho">Resfriadinho</string>
+    <string name="main_reload_shotgun">Cargar bala</string>
+    <string name="main_gripesinha">Gripesinha</string>
+    <string name="main_shot_ak47">Disparo</string>
+</resources>
