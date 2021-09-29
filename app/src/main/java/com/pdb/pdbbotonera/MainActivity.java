@@ -13,38 +13,57 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button oldCashMachineButton = (Button) findViewById(R.id.cashierButton);
-        oldCashMachineButton.setOnClickListener(v -> {
-            final MediaPlayer mp = MediaPlayer.create(v.getContext(),R.raw.old_cash_machine);
+        Button normalClapping = (Button) findViewById(R.id.normalClapping);
+        normalClapping.setOnClickListener(v -> {
+            final MediaPlayer mp = MediaPlayer.create(v.getContext(),R.raw.normal_applause_short);
             mp.start();
         });
 
 
-        Button resfriadinhoButton = (Button) findViewById(R.id.resfriadinhoButton);
-        resfriadinhoButton.setOnClickListener(v -> {
+        Button applause = (Button) findViewById(R.id.applause);
+        applause.setOnClickListener(v -> {
+            final MediaPlayer mp = MediaPlayer.create(v.getContext(),R.raw.audience_clapping_short);
+            mp.start();
+        });
+
+
+        Button cashier = (Button) findViewById(R.id.cashier);
+        cashier.setOnClickListener(v -> {
+            final MediaPlayer mp = MediaPlayer.create(v.getContext(),R.raw.cash_machine_loud);
+            mp.start();
+        });
+
+
+        Button cockingGun = (Button) findViewById(R.id.cockingGun);
+        cockingGun.setOnClickListener(v -> {
+            final MediaPlayer mp = MediaPlayer.create(v.getContext(),R.raw.shotgun_cocking);
+            mp.start();
+        });
+
+        Button shot = (Button) findViewById(R.id.shotSingle);
+        shot.setOnClickListener(v -> {
+            final MediaPlayer mp = MediaPlayer.create(v.getContext(),R.raw.disparo);
+            mp.start();
+        });
+
+        Button machineGun = (Button) findViewById(R.id.machineGun);
+        machineGun.setOnClickListener(v -> {
+            final MediaPlayer mp = MediaPlayer.create(v.getContext(),R.raw.metralla);
+            mp.start();
+        });
+
+           Button resfriadinho = (Button) findViewById(R.id.resfriadinho);
+        resfriadinho.setOnClickListener(v -> {
             final MediaPlayer mp = MediaPlayer.create(v.getContext(),R.raw.resfriadinho_bolsonaro);
             mp.start();
         });
 
-
-        Button reloadShotgun = (Button) findViewById(R.id.reloadShotgunButton);
-        reloadShotgun.setOnClickListener(v -> {
-            final MediaPlayer mp = MediaPlayer.create(v.getContext(),R.raw.reload_shotgun);
+           Button drummer = (Button) findViewById(R.id.drummer);
+        drummer.setOnClickListener(v -> {
+            final MediaPlayer mp = MediaPlayer.create(v.getContext(),R.raw.drum_tada);
             mp.start();
         });
 
-
-        Button gripesinha = (Button) findViewById(R.id.gripesinhaButton);
-        gripesinha.setOnClickListener(v -> {
-            final MediaPlayer mp = MediaPlayer.create(v.getContext(),R.raw.gripesinha_bolsonaro);
-            mp.start();
-        });
-
-        Button shot = (Button) findViewById(R.id.shotAk47Button);
-        shot.setOnClickListener(v -> {
-            final MediaPlayer mp = MediaPlayer.create(v.getContext(),R.raw.shot_ak47);
-            mp.start();
-        });
 
     }
 }

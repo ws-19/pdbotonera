@@ -8,7 +8,23 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/cashierButton"
+        android:id="@+id/normalClapping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_normal_clapping"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/teal_700"></Button>
+
+    <Button
+        android:id="@+id/applause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_applause"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/teal_700"></Button>
+
+    <Button
+        android:id="@+id/cashier"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/main_cashier"
@@ -16,15 +32,7 @@
         app:backgroundTint="@color/teal_700"></Button>
 
     <Button
-        android:id="@+id/resfriadinhoButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/main_resfriadinho"
-        android:textColor="@color/black"
-        app:backgroundTint="@color/teal_700"></Button>
-
-    <Button
-        android:id="@+id/reloadShotgunButton"
+        android:id="@+id/cockingGun"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/main_reload_shotgun"
@@ -32,18 +40,34 @@
         app:backgroundTint="@color/teal_700"></Button>
 
     <Button
-        android:id="@+id/gripesinhaButton"
+        android:id="@+id/shotSingle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/main_gripesinha"
+        android:text="@string/main_shot"
         android:textColor="@color/black"
         app:backgroundTint="@color/teal_700"></Button>
 
     <Button
-        android:id="@+id/shotAk47Button"
+        android:id="@+id/machineGun"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/main_shot_ak47"
+        android:text="@string/main_machineGun"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/teal_700"></Button>
+
+    <Button
+        android:id="@+id/resfriadinho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_resfriadinho"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/teal_700"></Button>
+
+    <Button
+        android:id="@+id/drummer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_drummer"
         android:textColor="@color/black"
         app:backgroundTint="@color/teal_700"></Button>
 
